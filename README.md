@@ -37,14 +37,14 @@ swag init
 
 ```sh
 go get -u github.com/swaggo/gin-swagger
-go get -u github.com/swaggo/files
+go get -u github.com/swaggo/files/v2
 ```
 
 Import following in your code:
 
 ```go
 import "github.com/swaggo/gin-swagger" // gin-swagger middleware
-import "github.com/swaggo/files" // swagger embed files
+import "github.com/swaggo/files/v2" // swagger embed files
 
 ```
 
@@ -101,7 +101,7 @@ package main
 import (
    "github.com/gin-gonic/gin"
    docs "github.com/go-project-name/docs"
-   swaggerfiles "github.com/swaggo/files"
+   swaggerfiles "github.com/swaggo/files/v2"
    ginSwagger "github.com/swaggo/gin-swagger"
    "net/http"
 )

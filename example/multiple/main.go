@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	swaggerFiles "github.com/swaggo/files"
+	swaggerFiles "github.com/swaggo/files/v2"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	v1 "github.com/swaggo/gin-swagger/example/multiple/api/v1"
 	v2 "github.com/swaggo/gin-swagger/example/multiple/api/v2"

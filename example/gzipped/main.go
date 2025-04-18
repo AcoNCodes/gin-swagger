@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
-	swaggerFiles "github.com/swaggo/files"
+	swaggerFiles "github.com/swaggo/files/v2"
 	"github.com/swaggo/gin-swagger"
 
 	_ "github.com/swaggo/gin-swagger/example/basic/docs"
